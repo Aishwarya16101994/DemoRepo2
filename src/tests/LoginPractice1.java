@@ -28,7 +28,7 @@ public class LoginPractice1 {
 		driver = new FirefoxDriver();
 		jse = (JavascriptExecutor)driver;
 		driver.get("https://e.centennialcollege.ca/d2l/login?noredirect=1");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         
         
   }
